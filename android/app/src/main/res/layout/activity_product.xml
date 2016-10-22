@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fugliara.ccs002.views.order.ProductActivity">
+
+    <EditText
+        android:id="@+id/editTextProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Descrição"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextProductDecricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextRetirada"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Endereço Entrega"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/editTextProductHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextProductDecricao"
+        android:ems="10"
+        android:hint="Altura"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextProductWidth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Largura"
+        android:inputType="number"
+        android:layout_below="@+id/editTextProductDecricao"
+        android:layout_toEndOf="@+id/editTextProductHeight" />
+
+    <EditText
+        android:id="@+id/editTextProductLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextProductWidth"
+        android:ems="10"
+        android:hint="Comprimento"
+        android:inputType="number"
+        android:layout_alignEnd="@+id/editTextProductHeight" />
+
+    <EditText
+        android:id="@+id/editTextProductWeightKg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Peso"
+        android:inputType="number"
+        android:layout_below="@+id/editTextProductHeight"
+        android:layout_toEndOf="@+id/editTextProductHeight" />
+
+    <Button
+        android:id="@+id/buttonPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextProductWeightKg"
+        android:layout_centerHorizontal="true"
+        android:text="Fotografar Produto"
+        android:background="@color/button_color" />
+
+    <Button
+        android:id="@+id/buttonProductSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Agendar"
+        android:background="@color/button_color" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Informações do produto transportado." />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editTextRetirada"
+        android:layout_below="@+id/editTextProductName"
+        android:layout_centerHorizontal="true"
+        android:hint="Endereço Retirada" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/buttonPhoto"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/buttonProductSave">
+
+        <ImageView
+            android:id="@+id/imageViewPhoto"
+            android:layout_width="193dp"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/buttonProductSave"
+            android:layout_below="@+id/buttonPhoto"
+            android:maxHeight="120dp"
+            android:minHeight="120dp"
+            android:minWidth="150dp"
+            android:layout_toStartOf="@+id/editTextProductWeightKg"
+            android:layout_marginTop="5dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/buttonPhoto"
+            android:layout_alignEnd="@+id/buttonPhoto"
+            android:layout_alignStart="@+id/editTextProductWeightKg"
+            android:layout_above="@+id/buttonProductSave"
+            android:baselineAligned="false"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Modelo de Entrega"
+                android:id="@+id/textView10" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correio"
+                android:id="@+id/radioButtonCorreio" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Em mãos"
+                android:id="@+id/radioButtonHand"
+                android:checked="true" />
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>

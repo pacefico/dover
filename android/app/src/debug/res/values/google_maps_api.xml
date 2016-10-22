@@ -1,0 +1,16 @@
+<resources>
+    <!--
+    Paulo Home:
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=F0:23:DC:A9:93:B6:A8:8C:5B:31:F7:AB:B8:4C:E0:CC:83:D6:FC:3B%3Bcom.example.fugliara.ccs002
+
+    Fellipe Home:
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=0D:8E:84:CF:54:69:5A:9E:0C:1E:0B:4F:2D:12:88:ED:E8:C4:59:0B%3Bcom.example.fugliara.ccs002
+
+    Fellipe Fit:
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=99:BC:0A:67:2A:43:A8:6D:28:E1:2D:93:46:42:21:2F:A0:6D:C6:70%3Bcom.example.fugliara.ccs002
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        <!-- AIzaSyCSMbamMfZdZQ4gnwqB9Mh8l5AjRJ6vUOI -->
+        AIzaSyDzuEEWCCoL2aYRENh36yjHKAmaj46xGMA
+    </string>
+</resources>

@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AndroidLintTextFields" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+=======
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AndroidLintTextFields" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+>>>>>>> ac3d0283dd78c4906d6af49b3ee018ae27bcc26a
+</component>

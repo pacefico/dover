@@ -1,0 +1,60 @@
+<resources>
+    <string name="facebook_app_id">892214057499659</string>
+    <string name="app_name">Dover</string>
+
+    <string name="title_activity_login">Dover</string>
+    <string name="title_activity_register">Registro</string>
+    <string name="title_activity_home">Dover</string>
+    <string name="title_activity_itinerary">Itinerario</string>
+    <string name="title_activity_order">Quero Enviar</string>
+    <string name="title_activity_tracking">Acompanhar Transporte</string>
+    <string name="title_activity_route">Mapa</string>
+    <string name="title_activity_generate">Convidar</string>
+    <string name="title_activity_create_route">Criar Rota</string>
+    <string name="title_activity_profile">Minha Conta</string>
+    <string name="title_activity_profile_invite">Convidar</string>
+    <string name="title_activity_profile_invite_create">Gerar Convite</string>
+    <string name="title_activity_check_invite">Validar Convite</string>
+    <string name="title_activity_status">Situação do Envio</string>
+    <string name="title_activity_points">Qualificações</string>
+
+    <!-- Login Activity -->
+    <string name="bt_login">Login</string>
+    <string name="lb_register">Registrar Agora !</string>
+
+    <!-- Register Activity -->
+    <string name="bt_register">Registrar</string>
+
+    <!-- Check Invite Activity -->
+    <string name="code">Código</string>
+    <string name="bt_validate">Validar</string>
+
+    <!-- Order Activity -->
+    <string name="bt_find_route">Procurar Rotas</string>
+    <string name="send_order">Registrar Produto</string>
+
+    <!-- Itinerary Activity -->
+    <string name="bt_itinerary_route">Datas</string>
+
+    <!-- Invite / Profile Invite Activity -->
+    <string name="lb_info_invite">Convites</string>
+    <string name="lb_avaliable_invite">Convites Disponíveis</string>
+    <string name="lb_do_invite">Convites Realizados</string>
+    <string name="bt_invite">Convidar</string>
+    <string name="lb_invite_text">Insira os dados para enviar um convite</string>
+
+    <!-- Product Activity -->
+    <string name="title_activity_product">Produto</string>
+
+    <!-- All -->
+    <string name="name">Nome</string>
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="time">Horário</string>
+    <string name="date">Data</string>
+    <string name="from">Origem</string>
+    <string name="to">Destino</string>
+    <string name="bt_insert">Criar</string>
+    <string name="bt_delete">Deletar</string>
+
+</resources>

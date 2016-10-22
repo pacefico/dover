@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".NavigationActivity">
+
+    <Button
+        android:id="@+id/buttonCreateRoute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Criar Nova Rota"
+        android:background="@color/button_color" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/buttonDeleteRoute"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="false"
+        tools:context="com.example.fugliara.ccs002.views.itinerary.RouteActivity" />
+
+    <ListView
+        android:id="@+id/listViewRoutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonCreateRoute"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        tools:listitem="@android:layout/simple_list_item_1" />
+
+    <Button
+        android:id="@+id/buttonDeleteRoute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/bt_delete"
+        android:background="@color/button_color" />
+
+    <Button
+        android:id="@+id/buttonItinerary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_toLeftOf="@+id/buttonDeleteRoute"
+        android:layout_toStartOf="@+id/buttonDeleteRoute"
+        android:text="Agendar"
+        android:background="@color/button_color"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonDeleteRoute"
+        android:layout_centerVertical="true"
+        android:background="#333333"
+        android:padding="5dp"
+        android:text="Minhas Rotas"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Minhas rotas de transporte. São as rotas em que realizo o transporte de encomendas." />
+
+</RelativeLayout>
