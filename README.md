@@ -15,22 +15,22 @@ Em conjunto com Felipe Ugliara (fellipe.a.u@gmail.com )
 Utilizando a metodologia Kaizen (abaixo descrita), a aplicação foi desenvolvida em 3 iterações (MVP´s) contendo as seguintes funcionalidades:
 
 - MVP 1
-Registro na aplicação
-Convite de usuário
-Registro de rota e horario
-Acompanhamento do envio de encomendas
-Qualificação do usuário
+Registro na aplicação,
+Convite de usuário,
+Registro de rota e horario,
+Acompanhamento do envio de encomendas,
+Qualificação do usuário.
 
 - MVP 2
-Modelos de entrega
-Fotos na entrega e retirada
-Registro na aplicação utilizando Facebook
+Modelos de entrega,
+Fotos na entrega e retirada,
+Registro na aplicação utilizando Facebook.
 
 - MVP 3
-Raio de busca de pessoas no mapa
-Cadastro de detalhes do produto
-Convite para uso do aplicativo via Facebook
-Envio de notificações por email
+Raio de busca de pessoas no mapa,
+Cadastro de detalhes do produto,
+Convite para uso do aplicativo via Facebook,
+Envio de notificações por email.
 
 ## Codigo Fonte
 
@@ -42,11 +42,11 @@ Back-End: .Net baseado em serviços de nuvem Azure
 * [Pdf com a apresentação do MVP1][presentation_1_pdf]:
 Planejamento e Validação, Questionário e Resultados, Business Model Canvas e Telas da aplicação android
 
-* [Pdf com a apresentação do MVP2 e MPVP3][presentation_2_pdf]: 
+* [Pdf com a apresentação do MVP2 e MVP3][presentation_2_pdf]: 
 Evolução do Kaizen, Software Canvas, Business Model Canvas, Telas da aplicação android 
 
 
-## Methodology
+## Metodologia
 
 A metodologia utilizada para o desenvolvimento da aplicação foi baseado no Startup Kaizen (melhoria continua), objeto de estudo da Nathalia Novaes Leonessa (www.startupsorocaba.com.br)
 
@@ -74,7 +74,7 @@ Utiliza aspectos de diferentes metodologias
 - Scrum
 - Lean Startup
 
-## Technologies, language and tools involved
+## Tecnologias, linguages e ferramentas envolvidas
 
 - Microsfot Azure Services
 - Microsoft Visual Studio
