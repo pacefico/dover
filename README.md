@@ -5,6 +5,8 @@ Em conjunto com Felipe Ugliara (fellipe.a.u@gmail.com )
 
 ## Ideia
 
+![Logo][main_logo]
+
 - Aplicativo para o transporte de encomendas entre pontos definidos com valor competitivo para quem envia e oportunidade de renda para quem transporta.
 - Modo alternativo ao transporte de encomendas, com prazos e valores diferenciados. Oportunidade de renda a quem deseja transportar encomendas.
 
@@ -96,6 +98,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-[screen_architecture]: /Project/arquitetura.png "Arquitetura do Sistema"
+[main_logo]: /project/main_logo.png "Logo"
 [presentation_1_pdf]: https://raw.githubusercontent.com/pacefico/dover/project/dover-presentation-1.pdf
 [presentation_2_pdf]: https://raw.githubusercontent.com/pacefico/dover/project/dover-presentation-2.pdf
