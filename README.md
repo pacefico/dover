@@ -3,6 +3,9 @@
 Aplicação desenvolvida como parte de obtenção de créditos em disciplina de mestrado da Universidade Federal de São Carlos UFscar - Sorocaba @ 2015
 Em conjunto com Felipe Ugliara (fellipe.a.u@gmail.com )
 
+(English) Application developed as part of obtaining credits in master's course at the Federal University of São Carlos UFSCAR
+Application for transporting products between defined points that defines an alternative mode of transport orders and pave income opportunity to those who want to carry orders.
+
 ## Ideia
 
 ![Logo][main_logo]
