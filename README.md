@@ -102,5 +102,5 @@ THE SOFTWARE.
 
 
 [main_logo]: /project/main_logo.png "Logo"
-[presentation_1_pdf]: https://raw.githubusercontent.com/pacefico/dover/project/dover-presentation-1.pdf
-[presentation_2_pdf]: https://raw.githubusercontent.com/pacefico/dover/project/dover-presentation-2.pdf
+[presentation_1_pdf]: project/dover-presentation-1.pdf
+[presentation_2_pdf]: project/dover-presentation-2.pdf
