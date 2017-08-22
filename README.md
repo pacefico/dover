@@ -1,75 +1,73 @@
-# Dover Delivery: Aplicação protótipo android para envio e recebimento de encomendas de forma colaborativa
+# Dover Delivery: Prototype android application for sending and receiving orders in a collaborative way
 
-Aplicação desenvolvida como parte de obtenção de créditos em disciplina de mestrado da Universidade Federal de São Carlos UFscar - Sorocaba @ 2015
-Em conjunto com Felipe Ugliara (fellipe.a.u@gmail.com )
-
-(English) Application developed as part of obtaining credits in master's course at the Federal University of São Carlos UFSCAR
+(English) Using lean startup process, the application was developed as part of obtaining credits in master's course at the Federal University of São Carlos UFSCAR
 Application for transporting products between defined points that defines an alternative mode of transport orders and pave income opportunity to those who want to carry orders.
+In partnership with Felipe Ugliara (fellipe.a.u@gmail.com )
 
-## Ideia
+## Idea
 
 ![Logo][main_logo]
 
-- Aplicativo para o transporte de encomendas entre pontos definidos com valor competitivo para quem envia e oportunidade de renda para quem transporta.
-- Modo alternativo ao transporte de encomendas, com prazos e valores diferenciados. Oportunidade de renda a quem deseja transportar encomendas.
+- Application for the transport of orders between points defined with competitive value for those who send and opportunity of income for those who transport.
+- Alternative mode to the transport of orders, with different deadlines and values. Opportunity to rent to those who want to transport parcels.
 
-## O que foi desenvolvido
+## What was developed
 
-Utilizando a metodologia Kaizen (abaixo descrita), a aplicação foi desenvolvida em 3 iterações (MVP´s) contendo as seguintes funcionalidades:
+Using metodologies Lean and Kaizend, the application was developed in 3 iterations (MVPs) containing the following functionalities:
 
 - MVP 1
-Registro na aplicação,
-Convite de usuário,
-Registro de rota e horario,
-Acompanhamento do envio de encomendas,
-Qualificação do usuário.
+Application register,
+User invitation,
+Route search and schedule,
+Track shipment of orders,
+User qualification.
 
 - MVP 2
-Modelos de entrega,
-Fotos na entrega e retirada,
-Registro na aplicação utilizando Facebook.
+Delivery models,
+Pictures on delivery and withdrawal,
+Register in the application using Facebook.
 
 - MVP 3
-Raio de busca de pessoas no mapa,
-Cadastro de detalhes do produto,
-Convite para uso do aplicativo via Facebook,
-Envio de notificações por email.
+Search radius of people on the map,
+Product detail record,
+Invitation to use the application via Facebook,
+Send notifications by email.
 
-## Codigo Fonte
+## Source Code
 
-Front-end:  Aplicação Android 
-Back-End: .Net baseado em serviços de nuvem Azure
+Front-end:  Android application
+Back-End: .Net based on Azure cloud services
 
 ## Apresentação
 
 * [Pdf com a apresentação do MVP1][presentation_1_pdf]:
-Planejamento e Validação, Questionário e Resultados, Business Model Canvas e Telas da aplicação android
+Planning and Validation, Questionnaire and Results, Business Model Canvas and android application screens
 
 * [Pdf com a apresentação do MVP2 e MVP3][presentation_2_pdf]: 
-Evolução do Kaizen, Software Canvas, Business Model Canvas, Telas da aplicação android 
+Kaizen improvement, Canvas Software, Business Canvas Model, Screens of the android application
 
 
 ## Metodologia
 
-A metodologia utilizada para o desenvolvimento da aplicação foi baseado no Startup Kaizen (melhoria continua), objeto de estudo da Nathalia Novaes Leonessa (www.startupsorocaba.com.br)
+The methodology used for the development of the application was based on the Startup Kaizen (continuous improvement), object of study from Nathalia Novaes Leonessa (www.startupsorocaba.com.br)
 
-A metodologia Startup Kaizen consistiu em quatro fases à cada iteração (MVP´s) sendo elas: 
-- Requisitos: 
-	* Qual o MVP? Como Validar? Qual o valor? Clientes? Como ganhar dinheiro? 
-	* Groming, Levantamento de Histórias de usuario + momentos chaves = Personas
-- Validação: 
-	* Quais histórias foram validadas?
-	* Qual o impacto no cliente?
-	* Priorização para o desenvolvimento
-- Projeto:
-	* Como as histórias serão desenvolvidas?
-	* Quais são as atividades, recursos e parcerias chave da sua startup?
-- Implementação:
-	* Quantos bugs foram encontrados?
-	* Quantas histórias foram testadas?
-	* Quantos bugs foram corrigidos?
+The Startup Kaizen methodology consisted of four phases at each iteration (MVP's):
+- Requirements:
+	* What is the MVP? How to Validate? What is the business value? Customers? How to make money?
+	* Groming, User Stories Survey + key moments = People
+- Validation:
+	* Which stories have been validated?
+	* What impact on the customer?
+	* Development prioritization
+- Project:
+	* How will stories be developed?
+	* What are the key activities, resources and partnerships of your startup?
+- Implementation:
+	* How many bugs were found?
+	* How many stories have been tested?
+	* How many bugs have been fixed?
 
-Utiliza aspectos de diferentes metodologias
+Uses aspects of different methodologies
 - Business Model Canvas
 - Software Canvas
 - Design Thinking
@@ -77,7 +75,7 @@ Utiliza aspectos de diferentes metodologias
 - Scrum
 - Lean Startup
 
-## Tecnologias, linguages e ferramentas envolvidas
+## Technologies, languages and tools involved
 
 - Microsfot Azure Services
 - Microsoft Visual Studio
