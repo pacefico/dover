@@ -38,7 +38,7 @@ Send notifications by email.
 Front-end:  Android application
 Back-End: .Net based on Azure cloud services
 
-## Apresentação
+## Presentation
 
 * [Pdf com a apresentação do MVP1][presentation_1_pdf]:
 Planning and Validation, Questionnaire and Results, Business Model Canvas and android application screens
@@ -47,7 +47,7 @@ Planning and Validation, Questionnaire and Results, Business Model Canvas and an
 Kaizen improvement, Canvas Software, Business Canvas Model, Screens of the android application
 
 
-## Metodologia
+## Methodology
 
 The methodology used for the development of the application was based on the Startup Kaizen (continuous improvement), object of study from Nathalia Novaes Leonessa (www.startupsorocaba.com.br)
 
